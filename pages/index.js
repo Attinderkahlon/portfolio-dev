@@ -143,65 +143,101 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1 '>
-              <Image
-                className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive'
-                src={web1}
-                alt='web1'
-              />
+              <a
+                href='https://www.codesingh.dev/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Image
+                  className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive'
+                  src={web1}
+                  alt='web1'
+                />
+              </a>
             </div>
             <div className='basis-1/3 flex-1 '>
-              <Image
-                className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive'
-                src={web2}
-                alt='web2'
-              />
+              <a
+                href='http://ga-crypto.s3-website-ap-southeast-2.amazonaws.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Image
+                  className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive'
+                  src={web2}
+                  alt='web2'
+                />
+              </a>
             </div>
 
             <div className='basis-1/3 flex-1'>
-              <Image
-                className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive'
-                src={web3}
-                alt='web3'
-              />
+              <a
+                href='https://pic-some2.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Image
+                  className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive'
+                  src={web3}
+                  alt='web3'
+                />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image
-                className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive'
-                src={web4}
-                alt='web4'
-              />
+              <a
+                href='https://feedbackform2.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Image
+                  className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive'
+                  src={web4}
+                  alt='web4'
+                />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image
-                className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive'
-                src={web5}
-                alt='web5'
-              />
+              <a
+                href='https://unitconverter2.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Image
+                  className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive'
+                  src={web5}
+                  alt='web5'
+                />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image
-                className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive'
-                src={web6}
-                alt='web6'
-              />
+              <a
+                href='https://scoreboardb.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Image
+                  className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive'
+                  src={web6}
+                  alt='web6'
+                />
+              </a>
             </div>
           </div>
         </section>
